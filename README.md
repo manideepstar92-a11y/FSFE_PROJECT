@@ -1,4 +1,4 @@
-# 👗 End-to-End Digital Fashion & 3D Runway Clothing Portal
+# 👗 FITSY
 
 <p align="center">
   <b>Simplifying Fashion Shopping, Enhancing Digital Apparel Experience.</b>
