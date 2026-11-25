@@ -1,259 +1,239 @@
-# 👗 FITSY
+<div align="center">
 
-<p align="center">
-  <b>Simplifying Fashion Shopping, Enhancing Digital Apparel Experience.</b>
-  <br>
-  An interactive e-commerce platform combining digital fashion, 3D garment visualization, virtual runway styling, and store management.
-</p>
+# 👦🏻👕  FITSY'  👗👧
 
----
+### Fashion & 3D Runway Clothing Portal
 
-## 📌 1. Project Overview
+**Fresh styles. Interactive shopping. Made for boys.**
 
-The **End-to-End Digital Fashion & 3D Runway Clothing Portal** is a web-based e-commerce platform designed to modernize online apparel shopping through interactive digital services.
+Browse boys’ clothing, explore garments in 3D, preview runway outfits, and manage store orders—all in one place.
 
-The platform provides customers with an engaging shopping experience through curated clothing collections, interactive 360° garment visualization, and virtual runway styling.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-Built using modern web technologies such as HTML5, CSS3, JavaScript, and Three.js, the application delivers a responsive interface and interactive shopping experience.
-
-It also includes an Owner Dashboard that allows store administrators to manage products, runway demonstrations, and customer orders efficiently.
-
-The project aims to combine digital fashion visualization, online shopping, and store management into a single platform.
+</div>
 
 ---
 
-## 🎯 2. Project Objectives
+## 📖 Table of Contents
 
-- Develop a centralized platform for online clothing shopping and virtual styling.
-- Provide realistic 3D and 360° garment visualization.
-- Enable customers to explore authentic front and back clothing designs.
-- Create an intuitive and user-friendly shopping experience.
+- [Project Overview](#-project-overview)
+- [Objectives](#-objectives)
+- [Features](#-features)
+- [Technology Stack](#️-technology-stack)
+- [System Workflow](#-system-workflow)
+- [System Architecture](#️-system-architecture)
+- [Project Modules](#-project-modules)
+- [Benefits](#-benefits)
+- [Future Enhancements](#-future-enhancements)
+- [Learning Outcomes](#-learning-outcomes)
+- [Team Members](#-team-members)
+- [Project Information](#-project-information)
+- [Conclusion](#-conclusion)
+
+---
+
+## 📌 Project Overview
+
+**FITSY** is a digital fashion and shopping portal focused on boys’ clothing. It gives customers a way to browse clothing collections, explore garment designs from different angles, and preview outfit combinations through a virtual runway experience.
+
+The project also includes an owner dashboard for managing products, runway demonstrations, and customer orders. FITSY brings fashion browsing, 3D garment visualization, checkout, and store management together in one platform.
+
+---
+
+## 🎯 Objectives
+
+- Create a centralized platform for boys’ clothing and online shopping.
+- Provide interactive 3D and 360° garment visualization.
+- Help customers explore garment designs from the front and back.
+- Let customers preview and style outfits through a virtual runway.
+- Build a clear and user-friendly shopping experience.
 - Organize products, runway collections, and customer orders.
-- Implement an administrative dashboard for store management.
-- Demonstrate modern front-end and full-stack web development concepts.
+- Provide a dashboard for store owners to manage store activity.
+- Apply modern web development and 3D visualization concepts.
 
 ---
 
-## 🚀 3. Key Features
+## 🚀 Features
 
 | Feature | Description |
 |---|---|
-| 🛍️ Product Catalog | Browse clothing collections with category filters and search functionality. |
-| 🔄 360° Studio View | Explore garments interactively with realistic front and back views. |
-| 👗 Virtual Runway | Preview and style complete outfits on virtual models. |
-| 📊 Owner Dashboard | Manage products, runway demonstrations, and customer orders. |
-| 📍 Smart Checkout | Select delivery locations, manage customer details, and review orders. |
-| 💳 Payment Options | Supports QR-based payment presentation and card payment options. |
-| 📦 Order Management | Organize and monitor customer orders through the owner interface. |
-| 📱 Responsive Design | Provides an accessible interface across desktop and mobile screens. |
+| 👕 **Boys’ Clothing Catalog** | Browse boys’ fashion collections with category filters and search. |
+| 🔄 **360° Studio View** | Explore garments interactively with front and back views. |
+| 🧢 **Virtual Runway** | Preview and style outfits on virtual models. |
+| 📊 **Owner Dashboard** | Manage products, runway demonstrations, and customer orders. |
+| 📍 **Smart Checkout** | Enter delivery details, select a location, and review the order. |
+| 💳 **Payment Options** | Present QR-based and card payment options. |
+| 📦 **Order Management** | View and organize customer orders through the owner interface. |
+| 📱 **Responsive Design** | Support browsing on desktop and mobile screen sizes. |
 
 ---
 
-## 🛠️ 4. Technology Stack
+## 🛠️ Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| HTML5 | Website structure and semantic organization. |
-| CSS3 | Styling, responsive layouts, animations, and visual presentation. |
-| JavaScript | Interactive functionality and application logic. |
-| TypeScript | Optional type-safe application development. |
-| Three.js | 3D garment visualization and interactive product rotation. |
-| WebGL | Hardware-accelerated 3D rendering. |
-| Node.js | Backend server and API management. |
-| SQLite | Persistent storage for products, orders, and user accounts. |
-| Git & GitHub | Version control and project collaboration. |
+| **HTML5** | Web page structure and semantic markup. |
+| **CSS3** | Styling, responsive layouts, animations, and visual presentation. |
+| **JavaScript** | Interactive features and application logic. |
+| **Three.js** | 3D garment visualization and interactive product rotation. |
+| **WebGL** | Hardware-accelerated 3D rendering. |
+| **Node.js** | Backend server and API management. |
+| **SQLite** | Persistent storage for products, orders, and user accounts. |
+| **Git & GitHub** | Version control and project collaboration. |
 
 ---
 
-## 🏗️ 5. System Workflow
+## 🛒 System Workflow
 
-The application follows a simple customer-oriented workflow.
-
-```text
-              ┌──────────────────────┐
-              │     User Visits      │
-              │        Portal        │
-              └──────────┬───────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │     Homepage UI      │
-              └──────────┬───────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │   Navigation Menu    │
-              └──────────┬───────────┘
-                         │
-              ┌──────────┼──────────┐
-              ▼          ▼          ▼
-         ┌─────────┐ ┌────────┐ ┌─────────┐
-         │ Catalog │ │  360°  │ │ Virtual │
-         │ Section │ │ Studio │ │ Runway  │
-         └────┬────┘ └───┬────┘ └────┬────┘
-              │          │           │
-              └──────────┼───────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │  Shopping Bag / Cart │
-              └──────────┬───────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │   Checkout Process   │
-              │                      │
-              │ Delivery Information │
-              │ Order Summary        │
-              │ Payment Options      │
-              └──────────┬───────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │   Order Placement    │
-              └──────────────────────┘
+```mermaid
+flowchart TD
+    A[Customer visits FITSY] --> B[Homepage]
+    B --> C[Browse boys' clothing catalog]
+    B --> D[Explore 360° studio]
+    B --> E[Preview virtual runway]
+    C --> F[Add items to shopping bag]
+    D --> F
+    E --> F
+    F --> G[Enter delivery information]
+    G --> H[Review order summary]
+    H --> I[Choose payment option]
+    I --> J[Place order]
+    J --> K[Order appears in owner dashboard]
 ```
 
 ---
 
-## 📊 6. Project Modules
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    Customer[Customer] --> UI[Frontend User Interface]
+
+    subgraph Frontend
+        UI --> Catalog[Boys' Clothing Catalog]
+        UI --> Studio[3D Studio]
+        UI --> Runway[Virtual Runway]
+        UI --> Checkout[Checkout]
+        UI --> Dashboard[Owner Dashboard]
+    end
+
+    Catalog --> API[Backend API]
+    Studio --> API
+    Runway --> API
+    Checkout --> API
+    Dashboard --> API
+
+    subgraph Backend
+        API[Node.js Services]
+        API --> Data[(SQLite Database)]
+    end
+```
+
+---
+
+## 📦 Project Modules
 
 | Module | Main Responsibility | Technology |
 |---|---|---|
-| Homepage | Main storefront and navigation. | HTML, CSS, JavaScript |
-| Catalog Module | Clothing collections, search, and filters. | HTML, CSS, JavaScript |
-| 3D Studio Module | Interactive 360° garment visualization. | Three.js, WebGL |
-| Runway Module | Virtual models and outfit styling. | HTML, CSS, JavaScript |
-| Checkout Module | Delivery details, location selection, and order summary. | HTML, CSS, JavaScript |
-| Owner Dashboard | Product, demo, and order management. | HTML, CSS, JavaScript |
-| Backend Module | API handling and application data management. | Node.js |
-| Database Module | Storage of products, accounts, and orders. | SQLite |
+| **Homepage** | Main storefront and navigation. | HTML, CSS, JavaScript |
+| **Catalog Module** | Boys’ clothing collections, search, and filters. | HTML, CSS, JavaScript |
+| **3D Studio Module** | Interactive 360° garment visualization. | Three.js, WebGL |
+| **Runway Module** | Virtual models and outfit styling. | HTML, CSS, JavaScript |
+| **Checkout Module** | Delivery details, location selection, and order summary. | HTML, CSS, JavaScript |
+| **Owner Dashboard** | Product, demo, and order management. | HTML, CSS, JavaScript |
+| **Backend Module** | API handling and application data management. | Node.js |
+| **Database Module** | Storage for products, accounts, and orders. | SQLite |
 
 ---
 
-## 🏛️ 7. Project Architecture
+## 💡 Benefits
 
-The application follows a structured frontend and backend architecture.
+### 👕 Fashion for Boys
+Provides a dedicated place to browse boys’ clothing and outfit styles.
 
-```text
-       END-TO-END DIGITAL FASHION PORTAL
-                         │
-             ┌───────────┴───────────┐
-             │                       │
-             ▼                       ▼
-        FRONTEND                 BACKEND
-             │                       │
-      HTML5, CSS3, JS            Node.js
-             │                       │
-             ▼                       ▼
-       User Interface           API Services
-             │                       │
-      ┌──────┼──────┐                ▼
-      │      │      │             SQLite
-      ▼      ▼      ▼                │
-   Catalog  3D   Virtual             ▼
-          Studio  Runway         Data Storage
-      │      │      │                │
-      └──────┼──────┘                │
-             │                       │
-             └───────────┬───────────┘
-                         │
-                         ▼
-                  WEB PLATFORM
-                         │
-                         ▼
-               DIGITAL FASHION
-                  EXPERIENCE
-```
+### 🔄 Interactive Product Viewing
+Lets customers explore garment designs through front, back, and 360° views.
+
+### 🛍️ Convenient Shopping
+Brings browsing, outfit previews, and ordering into one platform.
+
+### 📱 Accessible Experience
+Uses responsive layouts and clear navigation for different screen sizes.
+
+### 📊 Store Management
+Gives store owners a dedicated interface for products, demonstrations, and orders.
 
 ---
 
-## 💡 8. Benefits of the Project
+## 🔮 Future Enhancements
 
-### 🛍️ Centralized Shopping
-Combines product browsing, 3D visualization, virtual styling, and ordering in one platform.
-
-### 👗 Better Product Visualization
-Allows customers to explore garment designs through interactive front, back, and 360° views.
-
-### ✨ Improved User Experience
-Provides clean navigation, responsive layouts, and interactive shopping controls.
-
-### 📍 Convenient Checkout
-Offers an organized checkout process with delivery details, location selection, and order summaries.
-
-### 📊 Efficient Store Management
-Provides store owners with a dedicated interface to manage products, demonstrations, and customer orders.
+- Add camera-based virtual try-on.
+- Explore augmented reality outfit previews.
+- Integrate a live payment gateway.
+- Add courier tracking and delivery updates.
+- Add product ratings and customer reviews.
+- Send automated order notifications.
+- Suggest outfits based on customer preferences.
+- Add sales reports and inventory insights.
 
 ---
 
-## 🔮 9. Future Enhancements
+## 🎓 Learning Outcomes
 
-The platform can be extended with the following features:
+This project provides experience with:
 
-- **Virtual Try-On:** Integrate camera-based virtual clothing previews.
-- **Augmented Reality:** Allow customers to visualize outfits using AR technology.
-- **Live Payment Gateway:** Integrate secure payment gateways supporting cards and net banking.
-- **Delivery Tracking:** Provide real-time courier tracking and delivery updates.
-- **Customer Reviews:** Introduce product ratings and feedback.
-- **Notifications:** Implement automated email and SMS order notifications.
-- **AI Recommendations:** Suggest personalized outfits based on customer preferences.
-- **Advanced Analytics:** Provide sales reports and inventory insights for store owners.
-
----
-
-## 🎓 10. Learning Outcomes
-
-Through this project, we gain practical experience in:
-
-- Semantic HTML5 structure and modern CSS styling.
-- Responsive website design for different screen sizes.
-- JavaScript-based interactive application development.
-- 3D rendering and visualization using Three.js and WebGL.
-- Shopping cart and checkout workflow implementation.
-- Backend development using Node.js.
-- Database management using SQLite.
-- Code organization and version control using Git and GitHub.
-- Understanding real-world e-commerce application architecture.
+- Semantic HTML and modern CSS.
+- Responsive web design.
+- JavaScript-based interactive features.
+- 3D rendering with Three.js and WebGL.
+- Shopping cart and checkout workflows.
+- Backend development with Node.js.
+- Database storage with SQLite.
+- Git and GitHub version control.
+- The structure of an e-commerce application.
 
 ---
 
-## 🏁 11. Conclusion
+## 👥 Team Members
 
-The **End-to-End Digital Fashion & 3D Runway Clothing Portal** demonstrates how modern web development technologies and 3D graphics can transform the online clothing shopping experience.
-
-By combining interactive product visualization, virtual runway styling, convenient checkout, and store management functionality, the project provides a practical foundation for a modern digital fashion platform.
-
-It showcases the application of frontend development, backend integration, database management, and interactive 3D technologies in solving real-world e-commerce challenges.
-
-The project also creates opportunities for future enhancements involving artificial intelligence, augmented reality, and advanced digital fashion experiences.
-
----
-
-## 👥 12. Team Members
+<div align="center">
 
 | Student ID | Name |
-|---|---|
+|:---:|:---|
 | 2620030089 | Manideep |
-| 2620030104 | Gowtham Sai |
-| 2620030105 | Vishwak |
+| 2620030105 | Gowtham Sai |
+| 2620030104 | Vishwak |
+
+</div>
 
 ---
 
-## 👨‍💻 Project Information
+## 🧾 Project Information
 
-**Project Name:** End-to-End Digital Fashion & 3D Runway Clothing Portal
-
-**Project Domain:** Web Development | E-Commerce | 3D Visualization
-
-**Technologies:** HTML5, CSS3, JavaScript, Three.js, WebGL, Node.js, SQLite
-
-**Project Type:** Full-Stack Web Application
+| Item | Details |
+|---|---|
+| **Project Name** | FITSY — Boys’ Fashion & 3D Runway Clothing Portal |
+| **Project Domain** | Web Development · E-Commerce · 3D Visualization |
+| **Project Type** | Full-Stack Web Application |
+| **Technologies** | HTML5, CSS3, JavaScript, Three.js, WebGL, Node.js, SQLite |
 
 ---
 
-<p align="center">
-  👗 <b>Simplifying Fashion Shopping, Enhancing Digital Apparel Experience.</b>
-  <br><br>
-  Developed with ❤️ using modern web technologies.
-</p>
+## 🏁 Conclusion
+
+FITSY demonstrates how web development and 3D graphics can create a more interactive boys’ clothing shopping experience. By combining product browsing, garment visualization, virtual runway styling, checkout, and store management, the project provides a foundation for a modern digital fashion platform.
+
+---
+
+<div align="center">
+
+👦🏻👕 **FITSY — Fresh Fashion, Interactive Style.**
+
+*Developed with ❤️ using modern web technologies.*
+
+</div>
